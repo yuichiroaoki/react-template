@@ -1,15 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
+import { Box } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+    <div>
+      <Box bg="tomato" w="100%" p={4} color="white">
+        This is the Box
+      </Box>
     </div>
   );
 }
