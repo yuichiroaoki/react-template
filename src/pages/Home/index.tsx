@@ -8,6 +8,7 @@ import {
   Icon,
   IconProps,
 } from "@chakra-ui/react";
+import ThemeSwitcher from "../../components/ThemeSwitcher";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <Text as={"span"} color={"orange.400"}>
             made easy
           </Text>
+          <ThemeSwitcher />
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
           Never miss a meeting. Never be late for one too. Keep track of your
