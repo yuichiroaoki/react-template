@@ -29,7 +29,7 @@
     "cy:install": "cypress install",
     "cy:run": "cypress run --headless --browser chrome",
     "cy:open": "cypress open --browser chrome",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "husky install"
