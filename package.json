@@ -26,6 +26,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "cy:install": "cypress install",
+    "cy:run": "cypress run --headless --browser chrome",
+    "cy:open": "cypress open --browser chrome",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -51,6 +54,7 @@
   },
   "packageManager": "yarn@3.0.2",
   "devDependencies": {
+    "cypress": "^8.7.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.2.0",
     "prettier": "2.4.1"
