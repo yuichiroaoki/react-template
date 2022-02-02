@@ -22,3 +22,12 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - run: yarn build --if-present
+
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Docker Build
+        run: |
+          docker build .
