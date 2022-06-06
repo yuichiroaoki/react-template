@@ -3,7 +3,7 @@ WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 
 COPY package.json .
-RUN yarn set version berry
+RUN yarn set version 3.1.1
 
 COPY yarn.lock .yarn .yarnrc.yml ./
 RUN yarn install
